@@ -13,5 +13,6 @@ public class AlfredTest{
         String notRelevantTest = alfredBot.respondBeforeAlexis("Maybe that's what Batman is about. Not winning. But failing..");
 
         System.out.println(testGreeting);
+        System.out.println(testGuestGreeting);
     }
 }
