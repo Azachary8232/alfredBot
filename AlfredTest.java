@@ -14,5 +14,6 @@ public class AlfredTest{
 
         System.out.println(testGreeting);
         System.out.println(testGuestGreeting);
+        System.out.println(testDateAnnouncement);
     }
 }

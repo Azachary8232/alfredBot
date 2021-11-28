@@ -12,8 +12,8 @@ public class AlfredQuotes {
     }
 
     public String dateannouncement() {
-
-        return "place holder for date announcement return string";
+        Date date = new Date();
+        return "It is currently " + date;
     }
 
     public String respondBeforeAlexis(String conversation) {
