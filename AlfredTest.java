@@ -2,7 +2,7 @@ public class AlfredTest{
 
     public static void main(String[] args) {
 
-        AlfredQoutes alfredBot = new AlfredQuotes();
+        AlfredQuotes alfredBot = new AlfredQuotes();
 
         String testGreeting = alfredBot.basicGreeting();
         String testGuestGreeting = alfredBot.guestGreeting("Beth Kane");
