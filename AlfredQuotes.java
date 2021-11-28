@@ -17,7 +17,17 @@ public class AlfredQuotes {
     }
 
     public String respondBeforeAlexis(String conversation) {
+        int alexis = conversation.indexOf("Alexis");
+        int alfred = conversation.indexOf("Alfred");
 
-        return "for snarky response return string";
+        if (alexis > 0){
+            return "Right away ,sir. She certainly isn't sophisticated enough for that.";
+        }
+        else if (alfred > 0){
+            return "As you wish, naturally.";
+        }
+        else{
+            return "Right. And with that I shall retire.";
+        }
     }
 }
