@@ -6,6 +6,7 @@ public class AlfredTest{
 
         String testGreeting = alfredBot.basicGreeting();
         String testGuestGreeting = alfredBot.guestGreeting("Beth Kane");
+        String testGuestGreeting2 = alfredBot.guestGreeting("afternoon", "Beth Kane");
         String testDateAnnouncement = alfredBot.dateannouncement();
 
         String alexisTest = alfredBot.respondBeforeAlexis("Alexis! Play some low-fi beats.");
@@ -14,6 +15,7 @@ public class AlfredTest{
 
         System.out.println(testGreeting);
         System.out.println(testGuestGreeting);
+        System.out.println(testGuestGreeting2);
         System.out.println(testDateAnnouncement);
         System.out.println(alexisTest);
         System.out.println(alfredTest);
